@@ -1,0 +1,262 @@
+<html>
+<head>
+  <script
+      src="https://code.jquery.com/jquery-3.4.0.min.js"
+      integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
+      crossorigin="anonymous">
+  </script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head
+<body>
+
+  <ul style="height:60px; font-size:20px;width:100%">
+      <li><a href="#cart">Cart</a></li>
+      <li><a href="#location">Location</a></li>
+    <li><a href="#team">Meet Our Team</a></li>
+        <li><a href="#order">Make your Pizza</a></li>
+    <li><a href="#pizzaofmonth">Pizza of the month</a></li>
+    <li><a href="#aboutus">About Us</a></li>
+    <li><a class="active" href="#home">Home</a></li>
+  </ul>
+  <a name="home"></a>
+  <div class="abc">
+<img src="2.jpg" height="600px" width="100%">
+</div>
+  <a name="aboutus"></a>
+<div style="padding-left:150px;padding-right:150px">
+  <center><p style="font-family:Comic Sans MS;font-size:50px;">About Us</p></center>
+<hr style="width:100% border-top: 1px solid black">
+<p style="padding-left:20px; font-size:18px" >&nbsp &nbsp &nbsp At Yo-Pizza , we don’t just make pizza.
+    We make people’s days.Yo-Pizza was built on the belief that pizza night should be special,
+    and we carry that belief into everything we do.What’s our purpose at Yo Pizza? Moments of Excitement.
+    All made possible by our flavor, innovation and,most importantly,
+    by unlocking potential in our team members.<br>
+    &nbsp &nbsp &nbsp&nbsp With more than 55 years of experience under our belts,
+    we understand how to best serve our customers through tried and true service principles.
+    Instead of following trends, we set them. We create food we’re proud to serve and deliver it fast
+    , with a smile.We’re the people who first delivered pizza to the White House.
+    We put a pizza in outer space. We took social media by storm. Our ordering app was featured in an
+    iPhone commercial. Pizza Hut stands for bold innovation<br><br>
+
+    <div class="row2">
+      <div class="column2">
+        <img src="3.jpg" height="500" width="90%">
+       </div>
+        <div class="column2">
+            <img src="4.jpg" height="500" width="90%">
+        </div>
+        <div class="column2">
+            <img src="5.jpg" height="500" width="90%">
+        </div>
+      </div>
+
+</div>
+
+
+
+
+
+<a name="pizzaofmonth"></a>
+<div>
+  <center>
+      <p style="font-family:Comic Sans MS;font-size:50px;">Pizzas of the month</p></center>
+      <hr style="width :45%; border-top: 2px solid black">
+      <div class="row2">
+        <div class="column2" style="font-family:Comic Sans MS;font-size:40px;">
+        <p style="padding-left:120px">  Pizza La Ruccoli
+          <img src="6.jpg" height="350" width="80%">
+         </div>
+          <div class="column2" style="font-family:Comic Sans MS;font-size:40px;">
+              <p style="padding-left:130px">  Pizza Picante
+              <img src="7.jpg" height="350" width="80%">
+          </div>
+          <div class="column2" style="font-family:Comic Sans MS;font-size:40px;">
+              <p style="padding-left:150px">  Pizza Italiana
+              <img src="8.jpg" height="350" width="85%">
+          </div>
+        </div>
+  </center>
+<a name="order"></a>
+  <center>
+    <p style="font-family:Comic Sans MS;font-size:50px;"><u>Make your own pizzas!</u></p>
+
+  </center>
+
+  <div class="row2">
+    <div class="column2">
+      <img src="9.jpg" height="500" width="99%">
+     </div>
+      <div class="column2">
+          <img src="10.jpg" height="500" width="99%">
+      </div>
+      <div class="column2">
+          <img src="11.jpg" height="500" width="99%">
+      </div>
+    </div>
+
+
+
+
+
+    <div id="container">
+        <div id="header">
+            <script src="index.js"></script>
+        </div>
+        <div id="content">
+        <center> <h2>Select your items:</h2></center>
+         <div class="wrapper">
+<center>
+           <div class="row2">
+
+             <div class="column2">
+               <div class="item" id="pizza" data-cost="100">
+                  <img src="bg_1.jpg" height="300" width="300" style="padding-left:20px"><br>
+                    <p style="padding-left:40px ;font-family:Comic Sans MS;font-size:30px;">Margherita Pizza</p>
+                    <p style="padding-left:40px ">   <button id="pizza-btn" class="addToCartButton" type="button" >Order</button></p>
+               </div>
+              </div>
+
+
+
+               <div class="column2">
+                 <div class="item" id="mushrooms" data-cost="10">
+                   <img src="mushroom.jpg" height="300" width="300"/>
+                   <p style="padding-left:40px ;font-family:Comic Sans MS;font-size:30px;">Mushrooms</p>
+                   <p style="padding-left:40px ">
+                   <button id="topping-mushrooms-btn">Order</button></p>
+                 </div>
+               </div>
+               <div class="column2">
+                 <div class="item" id="pepperoni" data-cost="20">
+                     <img src="pep1.jpg"  height="300" width="300" />
+                     <p style="padding-left:40px ;font-family:Comic Sans MS;font-size:30px;">Pepperoni</p>
+                     <p style="padding-left:40px ">
+                     <button id="topping-pepperoni-btn">Order</button></p>
+                 </div>
+               </div>
+             </div>
+
+<br>
+
+<div class="row2">
+
+  <div class="column2">
+    <div class="item" id="onions" data-cost="10">
+
+       <img src="onion.jpg"  height="300" width="300" >
+       <p style="padding-left:40px ;font-family:Comic Sans MS;font-size:30px;">Onions</p>
+       <p style="padding-left:40px ">
+       <button id="topping-onions-btn">Order</button>
+   </div>
+   </div>
+
+    <div class="column2">
+            <div class="item" id="meatballs" data-cost="20">
+
+                  <img src="meatball.jpg"  height="300" width="300">
+                  <p style="padding-left:40px ;font-family:Comic Sans MS;font-size:30px;">Meatballs</p>
+                  <p style="padding-left:40px ">
+                  <button  id="topping-meatballs-btn">Order</button>
+            </div>
+    </div>
+
+    <div class="column2">
+      <div class="item" id="peppers" data-cost="10">
+
+         <img src="pepper.jpg" height="300" width="300" >
+         <p style="padding-left:40px ;font-family:Comic Sans MS;font-size:30px;">Peppers</p>
+         <p style="padding-left:40px ">
+         <button  id="topping-peppers-btn">Order</button>
+     </div>
+    </div>
+  </div>
+<br>
+
+
+
+  <div class="row2">
+
+    <div class="column2">
+      <div class="item" id="prosciutto" data-cost="30">
+
+         <img src="pros.jpg" height="300" width="300">
+         <p style="padding-left:40px ;font-family:Comic Sans MS;font-size:30px;">Prosciutto</p>
+         <p style="padding-left:40px ">
+         <button id="topping-prosciutto-btn">Order</button>
+       </div>
+     </div>
+
+      <div class="column2">
+        <div class="item" id="bacon" data-cost="20">
+
+           <img src="bacon.jpg" height="300" width="300" >
+           <p style="padding-left:40px ;font-family:Comic Sans MS;font-size:30px;">Bacon</p>
+           <p style="padding-left:40px ">
+           <button id="topping-bacon-btn">Order</button>
+       </div>
+
+      </div>
+
+      <div class="column2">
+        <div class="item" id="olives" data-cost="10">
+           <img src="olives.jpg"  height="300" width="300">
+           <p style="padding-left:40px ;font-family:Comic Sans MS;font-size:30px;">Olives</p>
+           <p style="padding-left:40px ">
+           <button  id="topping-olives-btn">Order</button>
+       </div>
+      </div>
+    </div>
+    <br>
+<center>
+             <div class="item" id="ham" data-cost="20">
+                <img src="ham2.jpg" height="300" width="300">
+                <p style="padding-left:40px ;font-family:Comic Sans MS;font-size:30px;">Ham</p>
+                <p style="padding-left:40px ">
+                <button id="topping-ham-btn">Order</button>
+            </div></center>
+         </div>
+</center>
+<hr style="border-top: 2px solid black ;width :80%">
+<a name="team"></a>
+  <center><p style="font-family:Comic Sans MS;font-size:50px;">Meet our team</p></center>
+
+<div class="abcd">
+<img src="team.jpg" height="700px" width="100%">
+</div>
+<br>
+<a name="location"></a>
+<div class="row">
+<div id="map">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.765846970133!2d-0.07281698451492165!3d51.51751167963681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761cb58460e3af%3A0xe56a61ff1d60b80d!2sThe+Famous+Moonlight!5e0!3m2!1sen!2sin!4v1486823657131"
+  width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+</div>
+
+
+<a name="cart"></a>
+         <div class="cart">
+            <center>     <h2 class="section-header" style="font-family:Comic Sans MS;font-size:50px;" >CART</h2>
+
+                 <table id="cart-table" width=50% style="border: 1px solid black;background-color:black;color:white">
+                   <thead>
+                     <tr style="font-family:Comic Sans; font-size:20px;">
+                       <th align=left>ITEM</th>
+                       <th align=left>PRICE</th>
+                       <th align=left>QTY</th>
+                     </tr>
+                   </thead>
+                 </table>
+<br><br>
+                 <div class="cart-total" id="cartTotal" style="font-size:28px">
+                     <strong class="cart-total-title">Total Bill</strong>
+                     <span class="cart-total-price">0</span>
+                 </div>
+                 </center>
+
+         </div>
+     </div>
+    </div>
+
+
+</body>
+</html>
